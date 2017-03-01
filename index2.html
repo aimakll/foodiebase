@@ -1,0 +1,76 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>dat foodbank tho</title>
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<header>
+				<h1>ge mig mat</h1>
+			</header>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12">
+	
+		<button type="button" class="btn btn-default" id="btn-one" onclick="oneDish()">ett förslag</button>
+		<button type="button" class="btn btn-default" id="btn-week" onclick="weekDish()">veckoförslag</button>
+	<hr>
+	
+		</div>
+	</div>
+
+	<div class="row">
+	
+		<div class="col-lg-12">
+			<p>ok, ät det här:</p>
+		</div>
+
+	</div>
+
+	<div class="row">
+
+		<div id="food" class="col-lg-12 food">
+		</div>
+	
+	</div>
+	
+	<div class="row">
+		<div class="col-lg-12">
+		<button type="button" class="btn btn-default" id="btn-refresh" onclick="window.location.reload(true)">töm förslag</button>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-4">
+		<p>lägg till nåt gott</p>
+		<input type="text" class="form-control" id="addFood">
+		<button type="button" class="btn btn-default" id="input" onclick="insert()">lägg till</button>
+		</div>
+		
+		<div class="col-lg-4">
+		<p></p>
+		</div>
+		
+		<div class="col-lg-4">
+		<p></p>
+		</div>
+	</div>
+	
+</div> <!-- /container -->
+
+</div>
+
+
+<script src="js/mbas.js"></script>
+</body>
